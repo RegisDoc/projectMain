@@ -1,0 +1,64 @@
+/* *{
+    border: 1px solid red;
+} */
+
+/* navbar background */
+.background {
+    background-color: rgb(20, 20, 20);
+    padding: 1%;
+
+}
+
+/*navbar logo */
+.image {
+    width: 100px;
+    height: auto;
+}
+
+/* navbar text*/
+.navbar-nav .nav-link {
+    color: rgb(217, 218, 163);
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+
+}
+
+
+/* positioning contact us & languages */
+.d-flex {
+    display: flex !important;
+}
+
+.ms-5 {
+    margin-left: 40rem !important;
+}
+
+
+.background-img-rent {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    opacity: 70%;
+}
+
+.bookingform {
+    position: absolute;
+    margin-top: 360px;
+    display: flex;
+    flex-direction: row;
+    left: 10px;
+    justify-content: space-evenly;
+    background-color: ivory;
+    opacity: 0.9;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.rent-text {
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}

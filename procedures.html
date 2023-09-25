@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <style>
+    .container {
+      background-image: url('image/safetyabout.jpg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+
+    }
+  </style>
+
+  <link rel="stylesheet" href="css/procedures.css">
+</head>
+
+<body>
+
+  <!--navbar starts-->
+  <nav class="navbar navbar-expand-lg  background" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="#">
+        <img src="image/siera1.png" alt="Logo" class="d-inline-block align-text-top image">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-4" style="display: flex;
+      align-items: center;">
+          <li class="nav-item">
+            <a class="nav-link home" aria-current="page" href="siera.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="procedures.html">Procedures</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cars.html">Cars</a>
+          </li>
+          <div class="d-flex ms-5" style="display: flex;
+        align-items: center;">
+            <li class="nav-item">
+              <a class="nav-link contact" href="contact.html">Contact us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Language
+              </a>
+
+            </li>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">Italian</a></li>
+            </ul>
+          </div>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!--navbar ends -->
+
+ 
+
+
+
+
+
+
+  <!-- firstt form -->
+  <form>
+    <div class="container">
+      <h1
+        style="font-family: 'Times New Roman', Times, serif; font-size: 40px; text-align: center; color: rgb(8, 110, 76);">
+        Rent the Perfect Ride for You Below</h1>
+      <div>
+        <label for="location">Pick-up Location</label>
+        <select id="location" class="form-control">
+          <option value="A">Tirana International Airport</option>
+          <option value="T">Tirana center</option>
+          <option value="D">Durres</option>
+
+        </select>
+      </div>
+
+      <div>
+        <label for="pickup">Pick-up Date</label>
+        <input type="date" id="pickup" class="form-control">
+      </div>
+
+      <div>
+        <label for="pickupHour">Pick-up Time</label>
+        <input type="time" id="pickupHour" class="form-control">
+      </div>
+
+      <div>
+        <label for="dropoff">Drop-off Date</label>
+        <input type="date" id="dropoff" class="form-control">
+      </div>
+
+      <div>
+        <label for="dropoffHour">Drop-off Time</label>
+        <input type="time" id="dropoffHour" class="form-control">
+      </div>
+
+      <div>
+        <label for="sms">Any Questions?</label>
+        <textarea id="sms" cols="40">Type here..</textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn1">Search availability</button>
+    </div>
+  </form>
+
+
+
+
+
+
+
+  <!-- form starts -->
+
+
+
+  <form>
+    <div class="container-fluid bookingform">
+      <div class="booking-form">
+        <div class="form-group1">
+          <label for="location">Pick-up Location</label>
+          <select id="location" class="form-control">
+            <option value="A">Tirana International Airport</option>
+            <option value="T">Tirana center</option>
+            <option value="D">Durres</option>
+          </select>
+        </div>
+
+        <div class="form-group1">
+          <label for="pickup">Pick-up Date</label>
+          <input type="date" id="pickup" class="form-control">
+        </div>
+
+        <div class="form-group1">
+          <label for="pickupHour">Pick-up Time</label>
+          <input type="time" id="pickupHour" class="form-control">
+        </div>
+
+        <div class="form-group1">
+          <label for="dropoff">Drop-off Date</label>
+          <input type="date" id="dropoff" class="form-control">
+        </div>
+
+        <div class="form-group1">
+          <label for="dropoffHour">Drop-off Time</label>
+          <input type="time" id="dropoffHour" class="form-control">
+        </div>
+
+      </div>
+
+
+      <div class="booking-form2">
+        <div class="form-group">
+          <label for="FlightNumber">Flight Number</label>
+          <textarea id="FlightNumber" rows="1" cols="15" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="Airline">Airline</label>
+          <textarea id="Airline" rows="1" cols="15" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="FlightNumber2">Flight Number</label>
+          <textarea id="FlightNumber2" rows="1" cols="15" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="Airline2">Airline</label>
+          <textarea id="Airline2" rows="1" cols="15" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="sms">Any Questions?</label>
+          <textarea id="sms" cols="40" class="form-control">Type here..</textarea>
+        </div>
+      </div>
+      <!-- booking extra stuff -->
+      <div class="booking-form-end-part" style="font-family: auto; ">
+
+        <h2 style="text-align: center;">
+          No Hidden Fee's!<br> //Rental Charges are as shown below//<br> Choose your best fit :</h2>
+
+        <h3 style="font-weight: bold;">Insurance and Coverages:</h3>
+        <h4>Basic Insurance:</h4>
+        <p>This insurance, required by law, is always included. It covers damage to the other car involved in an
+          accident.</p>
+        <br>
+        <h4>Casco Insurance:</h4>
+        <p>Casco insurance covers the cost of repairing or replacing the rental vehicle if it's damaged while in your
+          possession.
+          This can include accidents, collisions, vandalism, and other forms of physical damage to the car.
+          In addition to covering damage to the other car involved, this insurance covers 80% of the damage to the car
+          you are renting.
+          Please Note:the remaining part (20%) will be paid by you.</p>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault">Casco Insurance Included<br>Additional 15.00 Euros per day</label>
+        </div>
+        <br>
+        <h4>Full Coverage</h4>
+        <p>Full Coverage Plan includes protection against physical damage, such as collision coverage and comprehensive
+          coverage,
+          in addition to the required liability coverage.
+          This combination of coverages can provide financial protection
+          if you’re in an accident or if your vehicle is damaged in other incidents, such as vandalism or extreme
+          weather.</p>
+          
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault">Full Coverage Plan Included<br>Additional 20.00 Euros per day</label>
+        </div>
+        <br>
+        <h3 style="font-weight: bold;">Baby seat</h3>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault">Baby seat Included<br>Additional 5.00 Euros per day</label>
+        </div>
+        <br>
+        <div style=" font-family: auto;">
+        <h4>Included in the basic price:</h4>
+        <h5>1)Basic Insurance</h5>
+        <h5>2)Unlimited kilometers</h5>
+        <h5>3)Free Road Assistance Inside Albania</h5>
+        <h5>4)We operate 24/7</h5>
+        </div>
+
+      
+
+<br>
+      </div>
+      <div class="button-form">
+        <button type="submit" class="btn btn-primary btn1">NEXT</button>
+      </div>
+<!-- dua te krijoj fushen ku shfaqen te dhenat + total to be paid -->
+
+  </form>
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
