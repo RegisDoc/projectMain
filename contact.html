@@ -7,7 +7,9 @@
   <title>Contact us</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Include flatpickr-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
   <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
@@ -16,108 +18,106 @@
 </head>
 
 <body>
-  <!-- navbar starts -->
-  <nav class="navbar navbar-expand-lg  background" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand " href="#">
-        <img src="image/siera1.png" alt="Logo" class="d-inline-block align-text-top image">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-4" style="display: flex;
-      align-items: center;">
-          <li class="nav-item">
-            <a class="nav-link home" aria-current="page" href="siera.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="procedures.html">Procedures</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cars.html">Cars</a>
-          </li>
-          <div class="d-flex ms-5" style="display: flex;
-        align-items: center;">
-            <li class="nav-item">
-              <a class="nav-link contact" href="contact.html">Contact us</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Language
-              </a>
-
-            </li>
-
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">English</a></li>
-              <li><a class="dropdown-item" href="#">Italian</a></li>
-            </ul>
-          </div>
-        </ul>
-
-      </div>
-    </div>
-  </nav>
-  <!-- navbar ends -->
-
-
-
-
-
+ <!--navbar starts-->
+ <nav class="navbar navbar-expand-lg  background" data-bs-theme="dark">
   <div class="container-fluid">
-    <div class="rent-text-container">
-      <h1 class="rent-text">Rent the Perfect Ride for You Below</h1>
-    </div>
-    <img class="background-img-rent" src="image/the-plane-bmw-bmw-silver-wallpaper-preview.jpg" alt="">
-    <div class="row justify-content-end align-items-end">
-      <div class="col-md-6">
-        <form>
-          <div class="container-fluid bookingform">
-            <div class="form-group1">
-              <label for="location">Pick-up Location</label>
-              <select id="location" class="form-control">
-                <option value="A">Tirana International Airport</option>
-                <option value="T">Tirana center</option>
-                <option value="D">Durres</option>
-              </select>
-            </div>
-            <div class="form-group1">
-              <label for="pickupDate">Pick-up Date</label>
-              <input type="text" id="pickupDate" class="form-control flatpickr" data-date-format="Y-m-d">
-            </div>
+    <a class="navbar-brand " href="#">
+      <img src="image/siera1.png" alt="Logo" class="d-inline-block align-text-top image">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-4" style="display: flex;
+      align-items: center;">
+        <li class="nav-item">
+          <a class="nav-link home" aria-current="page" href="siera.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="rental.html">Rental</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cars.html">Cars</a>
+        </li>
+        <div class="d-flex ms-5" style="display: flex;
+        align-items: center;">
+          <li class="nav-item">
+            <a class="nav-link contact" href="contact.html">Contact us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Language
+            </a>
 
-            <div class="form-group1">
-              <label for="pickupTime">Pick-up Time</label>
-              <input type="text" id="pickupTime" class="form-control flatpickr" data-enable-time="true"
-                data-no-calendar="true" data-time_24hr="true" data-date-format="H:i">
-            </div>
-            <div class="form-group1">
-              <label for="Dropoffdate">Drop-off Date</label>
-              <input type="text" id="Dropoffdate" class="form-control flatpickr" data-date-format="Y-m-d">
-            </div>
+          </li>
 
-            <div class="form-group1">
-              <label for="Dropofftime">Drop-off Time</label>
-              <input type="text" id="Dropofftime" class="form-control flatpickr" data-enable-time="true"
-                data-no-calendar="true" data-time_24hr="true" data-date-format="H:i">
-            </div>
-            <div class="button-form">
-              <button type="submit" class="btn btn-primary btn1">NEXT</button>
-            </div>
-          </div>
-        </form>
-      </div>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">English</a></li>
+            <li><a class="dropdown-item" href="#">Italian</a></li>
+          </ul>
+        </div>
+      </ul>
+
     </div>
   </div>
+</nav>
+<!--navbar ends -->
+
+
+
+<!-- imazhi -->
+  <img src="image/siera1.png" class="contactimg">
+  <h2 class="contact1">Welcome To Siera Car Rental Agency!</h2>
+
+
+  <h1 class="ReachOut">Reach Out to Us</h1>
+  <p class="Text">Have any questions about car availability, security, or need more information? <pre class="Text">Our team is here to assist you.
+     You can reach out to us directly using the contact details below or by completing the form.</pre></p>
+  <!-- form starts -->
+  
+
+  <form action="process_form.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <input type="submit" value="Submit">
+</form>
+
+<!-- contact fields -->
+<div class="contact-info">
+  <div class="contact-section">
+      <h2 class="contact-title">OUR CONTACTS</h2>
+      <ul class="contact-details">
+
+          <li><i class="fa-solid fa-location-dot fa-beat-fade" style="padding-right: 15px; color: #ff0000;">  </i>Tirana International Airport</li>
+          <li><i class="fa-solid fa-phone fa-beat"style="padding-right: 15px; color: #ff0000;"></i>+355 69 996 1266</li>
+          
+          <li><i class="fa-solid fa-envelope-circle-check fa-beat"style="padding-right: 15px; color: #ff0000;"></i><a href="mailto: siera.car.rental@gmail.com">siera.car.rental@gmail.com</a></li>
+      </ul>
+ 
+
+  <div class="social-networks">
+      <h2 class="social-networks-title">SOCIAL NETWORKS</h2>
+      <ul class="social-networks-links">
+          
+          <li><i class="fa-brands fa-instagram fa-beat" style="padding-right: 15px; color: #ff0000;"></i><a href="https://www.instagram.com//Siera_Car_Rental"></a>Siera_Car_Rental</li>
+      </ul>
   </div>
-
-
+ </div>
 
 
 

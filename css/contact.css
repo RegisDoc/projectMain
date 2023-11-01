@@ -33,32 +33,137 @@
     margin-left: 40rem !important;
 }
 
-
-.background-img-rent {
+/* first image */
+.contactimg {
     position: absolute;
-    width: 100%;
-    height: 70%;
-    opacity: 70%;
+    opacity: 0.7;
+    width: 50%;
+    height: auto;
+    margin: 1% 25%;
 }
 
-.bookingform {
-    position: absolute;
-    margin-top: 360px;
+.contact1 {
+    font-family: auto;
+    font-size: 22px;
+    padding: 11% 33%;
+    font-weight: bold;
+    color: white;
+    background-color: #262525;
     display: flex;
     flex-direction: row;
-    left: 10px;
-    justify-content: space-evenly;
-    background-color: ivory;
-    opacity: 0.9;
-    color: black;
-    font-weight: bold;
-    padding: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.rent-text {
-    position: absolute;
-    top: 100px;
-    left: 350px;
-    color: rgb(0, 0, 0);
-    font-style: italic;
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
+
+
+
+
+
+
+
+.ReachOut{
+    font-style: normal;
+    font-family: math;
+    font-weight: bold;
+    margin-top: 120px;
+    text-align: center;
+}
+
+
+.Text{
+    font-style: oblique;
+    font-family: monospace;
+    font-size: larger;
+    text-align: center;
+}
+
+/* form starts */
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #3a3434;
+    border-radius: 5px;
+    margin-top: 140px;
+    background-color: ghostwhite;
+    margin-left: 80px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/*  input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #3f3939;
+    border-radius: 5px;
+}
+
+/*  submit button */
+input[type="submit"] {
+    background-color: #e7d63d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #fded06;
+}
+
+
+
+/* contact infos */
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    align-items: flex-start;
+    margin-top: -35%;
+    margin-left: 61%;
+}
+
+.contact-info {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.contact-section {
+    margin-bottom: 20px;
+}
+
+.contact-title, .social-networks-title {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact-details, .social-networks-links {
+    list-style: none; 
+    padding: 0;
+}
+
+.contact-details li, .social-networks-links li {
+    margin-bottom: 5px;
